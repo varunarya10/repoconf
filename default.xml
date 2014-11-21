@@ -1,5 +1,5 @@
 <manifest>
-	<remote name="test" fetch="git@github.com:rickysarraf"/>
+	<remote name="test" fetch=".."/>
 
 	<default revision="refs/heads/master" remote="test" sync-j="4"/>
 
