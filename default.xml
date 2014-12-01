@@ -5,7 +5,7 @@
 	<default revision="refs/heads/master" remote="test" sync-c="true" sync-j="4"/>
 
 	<project name="cinder" remote="test" path="cinder"/>
-	<project name="python-cinderclient" remote="test" path="cinderclient"/>
+	<project name="python-cinderclient" remote="test" path="python-cinderclient"/>
 	<project name="repodeb" remote="test" path="."/>
 
 </manifest>
