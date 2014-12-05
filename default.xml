@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="test" fetch=".."/>
+	<remote name="jiocloud" fetch="JioCloud"/>
 
-	<default revision="refs/heads/master" remote="test" sync-c="true" sync-j="4"/>
+	<default revision="refs/heads/master" remote="jiocloud" sync-c="true" sync-j="4"/>
 
-	<project name="cinder" remote="test" path="cinder"/>
-	<project name="python-cinderclient" remote="test" path="python-cinderclient"/>
-	<project name="repodeb" remote="test" path="."/>
+	<project name="cinder" remote="jiocloud" path="cinder"/>
+	<project name="python-cinderclient" remote="jiocloud" path="python-cinderclient"/>
+	<project name="autobuild" remote="jiocloud" path="."/>
 
 </manifest>
