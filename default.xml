@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="jiocloud" fetch="JioCloud"/>
+	<remote name="jiocloud" fetch=".."/>
 
 	<default revision="refs/heads/master" remote="jiocloud" sync-c="true" sync-j="4"/>
 
