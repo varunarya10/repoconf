@@ -6,6 +6,7 @@
 
 	<project name="cinder" remote="jiocloud" path="cinder"/>
 	<project name="python-cinderclient" remote="jiocloud" path="python-cinderclient"/>
+	<project name="oslo.messaging" remote="jiocloud" path="oslo.messaging"/>
 	<project name="autobuild" remote="jiocloud" path="."/>
 
 </manifest>
