@@ -4,9 +4,14 @@
 
 	<default revision="refs/heads/master" remote="jiocloud" sync-c="true" sync-j="4"/>
 
-	<project name="cinder" remote="jiocloud" path="cinder"/>
-	<project name="python-cinderclient" remote="jiocloud" path="python-cinderclient"/>
 	<project name="oslo.messaging" remote="jiocloud" path="oslo.messaging"/>
+	<project name="oslo.config" remote="jiocloud" path="oslo.config"/>
+	<project name="python-cinderclient" remote="jiocloud" path="python-cinderclient"/>
+	<project name="python-novaclient" remote="jiocloud" path="python-novaclient"/>
+	<project name="python-swiftclient" remote="jiocloud" path="python-swiftclient"/>
+	<project name="python-glanceclient" remote="jiocloud" path="python-glanceclient"/>
+	<project name="python-neutronclient" remote="jiocloud" path="python-neutronclient"/>
+	<project name="python-keystoneclient" remote="jiocloud" path="python-keystoneclient"/>
 	<project name="autobuild" remote="jiocloud" path="."/>
 
 </manifest>
