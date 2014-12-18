@@ -12,6 +12,7 @@
 	<project name="python-glanceclient" remote="jiocloud" path="python-glanceclient"/>
 	<project name="python-neutronclient" remote="jiocloud" path="python-neutronclient"/>
 	<project name="python-keystoneclient" remote="jiocloud" path="python-keystoneclient"/>
+	<project name="ironic" remote="jiocloud" path="ironic"/>
 	<project name="autobuild" remote="jiocloud" path="."/>
 
 </manifest>
