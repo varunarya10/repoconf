@@ -20,6 +20,7 @@
 	<project name="ironic" remote="jiocloud" path="ironic"/>
 	<project name="posix_ipc" remote="jiocloud" path="posix_ipc"/>
 	<project name="proliantutils" remote="jiocloud" path="proliantutils"/>
+	<project name="stevedore" remote="jiocloud" path="stevedore"/>
 	<project name="tempest-lib" remote="jiocloud" path="tempest-lib"/>
 	<project name="autobuild" remote="jiocloud" path="."/>
 
