@@ -8,6 +8,7 @@
 	<project name="oslo.config" remote="jiocloud" path="oslo.config"/>
 	<project name="oslo.concurrency" remote="jiocloud" path="oslo.concurrency"/>
 	<project name="oslo.db" remote="jiocloud" path="oslo.db"/>
+	<project name="oslo.log" remote="jiocloud" path="oslo.log"/>
 	<project name="keystonemiddleware" remote="jiocloud" path="python-keystonemiddleware"/>
 	<project name="python-cinderclient" remote="jiocloud" path="python-cinderclient"/>
 	<project name="python-novaclient" remote="jiocloud" path="python-novaclient"/>
