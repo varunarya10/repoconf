@@ -7,6 +7,7 @@
 	<project name="oslo.messaging" remote="jiocloud" path="oslo.messaging"/>
 	<project name="oslo.config" remote="jiocloud" path="oslo.config"/>
 	<project name="oslo.concurrency" remote="jiocloud" path="oslo.concurrency"/>
+	<project name="oslo.context" remote="jiocloud" path="oslo.context"/>
 	<project name="oslo.db" remote="jiocloud" path="oslo.db"/>
 	<project name="oslo.log" remote="jiocloud" path="oslo.log"/>
 	<project name="keystonemiddleware" remote="jiocloud" path="python-keystonemiddleware"/>
