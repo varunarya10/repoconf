@@ -25,6 +25,9 @@
 	<project name="proliantutils" remote="jiocloud" path="proliantutils"/>
 	<project name="stevedore" remote="jiocloud" path="stevedore"/>
 	<project name="tempest-lib" remote="jiocloud" path="tempest-lib"/>
+	<project name="nova" remote="jiocloud" path="nova"/>
+	<project name="glance" remote="jiocloud" path="glance"/>
+	<project name="keystone" remote="jiocloud" path="keystone"/>
 	<project name="autobuild" remote="jiocloud" path="."/>
 
 </manifest>
