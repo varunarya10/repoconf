@@ -18,6 +18,7 @@
 	<project name="python-neutronclient" remote="jiocloud" path="python-neutronclient"/>
 	<project name="python-keystoneclient" remote="jiocloud" path="python-keystoneclient"/>
 	<project name="python-ironicclient" remote="jiocloud" path="python-ironicclient"/>
+	<project name="python-six" remote="jiocloud" path="python-six"/>
 	<project name="websockify" remote="jiocloud" path="python-websockify"/>
 	<project name="retrying" remote="jiocloud" path="python-retrying"/>
 	<project name="ironic" remote="jiocloud" path="ironic"/>
