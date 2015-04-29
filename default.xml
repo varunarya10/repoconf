@@ -4,6 +4,11 @@
 
 	<default revision="refs/heads/master" remote="jiocloud" sync-c="true" sync-j="4"/>
 
+	<project name="boto" remote="jiocloud" path="boto"/>
+	<project name="msgpack-python" remote="jiocloud" path="msgpack-python"/>
+	<project name="oslo.i18n" remote="jiocloud" path="oslo.i18n"/>
+	<project name="oslo.serialization" remote="jiocloud" path="oslo.serialization"/>
+	<project name="oslo.utils" remote="jiocloud" path="oslo.utils"/>
 	<project name="oslo.messaging" remote="jiocloud" path="oslo.messaging"/>
 	<project name="oslo.config" remote="jiocloud" path="oslo.config"/>
 	<project name="oslo.concurrency" remote="jiocloud" path="oslo.concurrency"/>
@@ -11,6 +16,7 @@
 	<project name="oslo.db" remote="jiocloud" path="oslo.db"/>
 	<project name="oslo.log" remote="jiocloud" path="oslo.log"/>
 	<project name="keystonemiddleware" remote="jiocloud" path="python-keystonemiddleware"/>
+	<project name="paramiko" remote="jiocloud" path="paramiko"/>
 	<project name="python-cinderclient" remote="jiocloud" path="python-cinderclient"/>
 	<project name="python-novaclient" remote="jiocloud" path="python-novaclient"/>
 	<project name="python-swiftclient" remote="jiocloud" path="python-swiftclient"/>
@@ -25,7 +31,9 @@
 	<project name="posix_ipc" remote="jiocloud" path="posix_ipc"/>
 	<project name="proliantutils" remote="jiocloud" path="proliantutils"/>
 	<project name="stevedore" remote="jiocloud" path="stevedore"/>
+	<project name="tempest" remote="jiocloud" path="tempest"/>
 	<project name="tempest-lib" remote="jiocloud" path="tempest-lib"/>
+	<project name="testtools" remote="jiocloud" path="testtools"/>
 	<project name="autobuild" remote="jiocloud" path="."/>
 
 </manifest>
