@@ -34,7 +34,8 @@
 	<project name="stevedore" remote="jiocloud" path="stevedore"/>
 	<project name="tempest" remote="jiocloud" path="tempest"/>
 	<project name="tempest-lib" remote="jiocloud" path="tempest-lib"/>
-	<project name="testtools" remote="jiocloud" path="testtools"/>
+  <!-- Could not get tags to work, this is the revision for tag 0.9.39  -->
+  <project revision="7dd699ac05a55b7cfcffcf6a4a1eb54081c52610" name="testtools" remote="jiocloud" path="testtools"/>
 	<project revision="bangalore" name="autobuild" remote="pandeyop" path="."/>
 
 </manifest>
