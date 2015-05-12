@@ -88,3 +88,5 @@ remotes that should be pulled in.
 One of the repos that repp pulls in from default.xml is called autobuild. This
 repo contains the build script *debian/sync-repo.sh*. It also seems to contain
 some other files that have some purpose that needs to be documented as well.
+
+More information on autobuild can be found at: (https://github.com/JioCloud/jiocloud-docs/blob/master/build_system.md)
