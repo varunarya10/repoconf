@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="jiocloud" fetch="https://github.com/jiocloud"/>
-  <remote name="pandeyop" fetch="https://github.com/pandeyop"/>
+  <remote name="bodepd" fetch="https://github.com/bodepd"/>
 
 	<default revision="refs/heads/master" remote="jiocloud" sync-c="true" sync-j="4"/>
 
@@ -38,6 +38,6 @@
   <project revision="7dd699ac05a55b7cfcffcf6a4a1eb54081c52610" name="testtools" remote="jiocloud" path="testtools"/>
   <!-- Needed to pull in version 0.10.4 for oslo -->
   <project name="python-netifaces" remote="jiocloud" path="python-netifaces"/>
-	<project revision="bangalore" name="autobuild" remote="pandeyop" path="."/>
+	<project revision="netifaces" name="autobuild" remote="bodepd" path="."/>
 
 </manifest>
