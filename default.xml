@@ -38,6 +38,8 @@
   <project revision="7dd699ac05a55b7cfcffcf6a4a1eb54081c52610" name="testtools" remote="jiocloud" path="testtools"/>
   <!-- Needed to pull in version 0.10.4 for oslo -->
   <project name="python-netifaces" remote="jiocloud" path="python-netifaces"/>
-	<project revision="netifaces" name="autobuild" remote="bodepd" path="."/>
+	<project name="pytz_2015_4" remote="jiocloud" path="python-tz"/>
+	<project revision="updates_for_tempest" name="autobuild" remote="bodepd" path="."/>
+
 
 </manifest>
