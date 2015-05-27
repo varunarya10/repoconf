@@ -25,7 +25,7 @@ NOTE: I have no idea what the actual install steps are, or if there are
 other deps. I am really just guessing and trying to provice docs b/c there
 are no docs.
 
-### Using Repo
+## Using Repo
 
 Make a directory to install your repo in:
 
@@ -76,6 +76,37 @@ And just for run, tar it up:
     tar -cvzf new_repo.tgz new_repo
 
 Now you are ready to do something with it!
+
+### Running from jenkins
+
+In general, it makes the most sense to run repoconf from
+a jenkins job when you need to build out a set of custom
+packages.
+
+Jenkins is advantageous because it can target a full build
+of repoconf against a preconfigured slave (since it may be
+difficult to have a machine that meets all of the requirements
+of a build slave). It may not be usable for everyone since I'm
+not sure if it can archive everyone's package repos at the
+same time.
+
+The following script shows how `override_packages.sh` from
+puppet-rjil can be used to build out a new package repo from
+jenkins. Note: `override_packages.sh` assumes that the parameters
+`repoconf_repo_source` and/or `repoconf_source_branch` have been
+provided so that it knows how to download a specified branch of
+repoconf to build against.
+
+    #!/bin/bash
+    set -xe
+    git remote add update $puppet_modules_source_repo
+    git fetch update
+    git checkout update/$puppet_modules_source_branch
+    bash -x build_scripts/override_packages.sh
+
+Note: the above code exists in the (pkg_test_build)[http://jiocloud.rustedhalo.com:8080/job/pkg_test_build/]
+job in jenkins. This build also kicks off a build afterwards that uses the
+`override_repo` param to launch a build using the created pacakges.
 
 ## Configuring packages to install
 
