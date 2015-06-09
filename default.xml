@@ -34,12 +34,12 @@
 	<project name="stevedore" remote="jiocloud" path="stevedore"/>
 	<project name="tempest" remote="jiocloud" path="tempest"/>
 	<project name="tempest-lib" remote="jiocloud" path="tempest-lib"/>
-  <!-- Could not get tags to work, this is the revision for tag 0.9.39  -->
-  <project revision="98a74c6bfc806dbf0503ea549363a7251d880584" name="testtools" remote="jiocloud" path="testtools"/>
-  <!-- Needed to pull in version 0.10.4 for oslo -->
-  <project name="python-netifaces" remote="jiocloud" path="python-netifaces"/>
-	<project name="pytz_2015_4" remote="jiocloud" path="python-tz"/>
-	<project revision="updates_for_tempest" name="autobuild" remote="bodepd" path="."/>
+        <project name="testtools" remote="jiocloud" path="testtools"/>
+        <project name="os-testr" remote="jiocloud" path="os-testr"/>
+        <!-- Needed to pull in version 0.10.4 for oslo -->
+        <project name="python-netifaces" remote="jiocloud" path="python-netifaces"/>
+        <project name="pytz_2015_4" remote="jiocloud" path="python-tz"/>
+        <project revision="updates_for_tempest" name="autobuild" remote="bodepd" path="."/>
 
 
 </manifest>
