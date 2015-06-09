@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="jiocloud" fetch="https://github.com/jiocloud"/>
-  <remote name="sorenh" fetch="https://github.com/sorenh"/>
 
 	<default revision="refs/heads/master" remote="jiocloud" sync-c="true" sync-j="4"/>
 
@@ -39,7 +38,7 @@
         <!-- Needed to pull in version 0.10.4 for oslo -->
         <project name="python-netifaces" remote="jiocloud" path="python-netifaces"/>
         <project name="pytz_2015_4" remote="jiocloud" path="python-tz"/>
-        <project revision="updates_for_tempest" name="autobuild" remote="sorenh" path="."/>
+        <project name="autobuild" remote="jiocloud" path="."/>
 
 
 </manifest>
