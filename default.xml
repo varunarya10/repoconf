@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="jiocloud" fetch="https://github.com/jiocloud"/>
+  <remote name="varunarya10" fetch="https://github.com/varunarya10"/>
 
 	<default revision="refs/heads/master" remote="jiocloud" sync-c="true" sync-j="4"/>
 
@@ -37,8 +38,8 @@
 	<project name="os-testr" remote="jiocloud" path="os-testr"/>
 	<project name="python-netifaces" remote="jiocloud" path="python-netifaces"/>
 	<project name="pytz_2015_4" remote="jiocloud" path="python-tz"/>
-	<project name="autobuild" remote="jiocloud" path="."/>
-        <project revision="3dcdce39e5fd17277f12621c2f91d74b69710fbb" name="nova" remote="jiocloud" path="nova"/>
+	<project revision="5690cfdf4067610073abe2919365a42e67669164" name="autobuild" remote="varunarya10" path="."/>
+        <project revision="c6a19f36e2ed0addd154c4d8361cd82fa8f790b9" name="nova_test_latest" remote="jiocloud" path="nova"/>
 
 
 </manifest>
